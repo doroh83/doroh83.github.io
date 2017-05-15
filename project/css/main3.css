@@ -1,0 +1,127 @@
+.zapolnitel{
+	background-color: #787878;
+}
+.first-slider{
+	height: 400px;
+}
+.first-slider-wrap{
+	height: 400px;
+}
+.sliderStageOuterClass{
+	position: relative;
+	z-index: 1000;
+}
+.top-slider-bg{
+	background-image: url(../image/panorama.png);
+	background-size: cover;
+	background-color: blue;
+	opacity: 0.3;
+	position: absolute;
+	width: 100%;
+	height: 400px;
+}
+.top-slider{
+	position: relative;
+	background-color: red;
+	height: 400px;
+}
+
+.top-slider-item{
+	width: auto;
+	height: 400px;
+	display: inline-block;
+	overflow: hidden;
+	text-align: center;
+}
+
+.sliderNavClass{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.sliderNavClass div{
+	position: relative;
+	color: #124587;
+	cursor: pointer;
+	font-size: 60px;
+	z-index: 3;
+	width: 50px;
+	height: 100%;
+}
+.sliderNavClass div:first-child {
+	float: left;
+}
+.sliderNavClass div:last-child {
+	float: right;
+
+}
+.sliderNavClass div .fa{
+	position: absolute;
+	margin:auto 15px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 50px;
+}
+
+.sliderNavClass div:hover {
+	color: #b9d7ff;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	filter: alpha(opacity=50);
+}
+
+.slide{
+	background-color: green;
+}
+.sliderDotsClass{
+	position: absolute;
+	left: 0;
+    bottom: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+	}
+.sliderDotClass{
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
+	display: inline-block;
+	margin: 5px;
+	width: 10px;
+	height: 10px;
+	background-color: #124587;
+	transition: all .4s ease;
+	}
+.sliderDotClass.active{
+	background-color: #124587;
+	border: 1px solid #b9d7ff;
+}
+.sliderDotClass:hover{
+	background-color: #b9d7ff;
+	border: 1px solid #124587;
+}
+.item-slider img{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	max-height: 60vh;
+	margin: 0 auto;
+}
+
+.item-slider h3{
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-family: PTSansNarrowRegular, Arial, Helvetica, sans-serif;
+	color: #2f2d30;
+}
+.item-slider p{
+	padding-top: 15px;
+	text-align: left;
+	font-size: 22px;
+	font-family: PTSansNarrowRegular, Arial, Helvetica, sans-serif;
+	color: #2f2d30;
+}

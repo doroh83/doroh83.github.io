@@ -1,0 +1,164 @@
+.button{
+	display: block;
+	text-align: center;
+	border: none;
+	background-color: #354a95;
+	color:#fff;
+	font-family: PTSansCaptionRegular, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 10px 15px;
+	box-shadow: 0 3px 0 #1477b2;
+	transition: all .15s ease;
+}
+.button:hover{
+	color: #fff;
+	text-decoration: none;
+	background-color: #81c0ec;
+
+}
+.button:focus{
+	color: #fff;
+	text-decoration: none;
+}
+.button:active{
+	background-color: #1477b2;
+	transform: translateY(1px);
+}
+.main-head{
+	position: relative;
+}
+.main-vi a.button{
+	width: 220px;
+    margin-top: 21px;
+    margin-right: 11px;
+    float: right;
+}
+.main-vi{
+	height: 82px;
+	background-color: #e3edf3;
+}
+.logo a {
+    background: url(../image/logotip.png) no-repeat center center;
+    background-size: cover;
+    height: 216px;
+    left: 45px;
+    position: absolute;
+    top: 0;
+    width: 165px;
+    z-index: 999;
+}
+.slogan-bg{
+	display: block;
+	position: relative;
+	background-color: #354a95;
+	height: 67px;
+}
+.slogan h2{
+	position: absolute;
+	text-align: center;
+	color: #fff;
+	font-family: PTSansCaptionRegular, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 24px;
+	left: 190px;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.main-menu{
+	height: 42px;
+	padding-left: 190px;
+	background-color: #e3edf3;
+	font-family: PTSansNarrowRegular, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+.main-menu ul li{
+	display: inline-block;
+}
+.main-menu ul li a{
+	display: block;
+	height: 42px;
+	font-size: 16px;
+	padding: 13px 25px;
+}
+.main-menu ul li a:hover, .main-menu ul li a:active,.main-menu ul li a:focus, .main-menu ul li a:visited{
+	background-color: #7fc4f6;
+	text-decoration: none;
+	outline: none !important;
+}
+.podrazdelen{
+	background-color: #fff;
+}
+.unit{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+.unit-item{
+	display: inline-block;
+	margin: 15px 10px;
+	min-width: 268px;
+	height: 300px;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	background-image: url(../image/do.png);
+	background-size: contain;
+}
+.senior{
+	background-color: #1477b2;
+}
+.kindergarten{
+	background-color: #df9739;
+}
+.bd-school{
+	background-color: #a80738;
+}
+.junior-school{
+	background-color: #81c0ec;
+}
+.unit-item .btn-group .btn-default,
+.unit-item .btn-group .btn-default:active{
+	background: transparent;
+	border:none;
+	border-radius: 0;
+	width: 100%;
+	-webkit-box-shadow:none;
+    box-shadow:none;
+    color: #fff;
+}
+.unit-item .btn-group{
+	width: 100%;
+	text-align: center;
+}
+.btn-default:active:hover,
+.btn-default.active:hover,
+.open > .dropdown-toggle.btn-default:hover,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.open > .dropdown-toggle.btn-default:focus,
+.btn-default:active.focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default.focus{
+	background-color: transparent;
+    border-color: none;
+    color:#fff;
+}
+.senior .btn-group .btn-default{
+	border-bottom: 1px solid #126ca2;
+}
+.kindergarten .btn-group .btn-default{
+	border-bottom: 1px solid #d59139;
+}
+.bd-school .btn-group .btn-default{
+	border-bottom: 1px solid #990b36;
+}
+.junior-school .btn-group .btn-default{
+	border-bottom: 1px solid #72afd9;
+}
+.open > .dropdown-menu {
+    display: block;
+    width: 100%;
+    border-radius: 0;
+    border-bottom-right-radius: 10px;
+    background: transparent;
+}
